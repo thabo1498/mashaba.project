@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <ListView
+        android:id="@+id/lstDisplayCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnAddCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstDisplayCustomer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="249dp"
+        android:text="Add Customer">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/btnRemoveCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstDisplayCustomer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="10dp"
+        android:text="Remove Customer">
+
+    </Button>
+
+
+</RelativeLayout>
